@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: "Comfortaa";
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20%;
+}
+h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+p{
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+    padding-bottom: 10px;
+    margin-top: 8px;
+
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.top-banner h1{
+    color: rgb(34, 34, 34);
+    margin-bottom: 0;
+}
+.top-banner h2{
+    color: rgb(241, 20, 131);
+    font-weight: 900;
+    font-size: 75px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.button{
+    width: 220px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient( to left, rgb(148, 8, 212), rgb(247, 5, 255), rgb(136, 5, 153));
+    background-size: 200%;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.button:hover{
+    background-position: right;
+}
+
+/*--SECTION 2--*/
+
+.middle{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    height: 700px; 
+    padding-top: 180px;
+}
+
+/*--SECTION 3--*/
+
+.Latest-Work{
+    padding: 25px;
+    background-size: cover;
+    height: 600px;
+    margin-top: 250px;
+}
+
+.latest-work-h2{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.Latest-image{
+    width: 22%;
+    margin-left: 8%;
+    float: left;
+}
+.Latest-image img{
+    width: 100%;
+}
+
+/*--SECTION 4--*/
+
+.last-section{
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.last-section h1{
+    margin-bottom: 50px;
+}
+.last-section h5{
+    color: rgb(92, 92, 92);
+}
+.mail-text{
+    width: 50%;
+    padding: 50px 0px;
+    background-image: linear-gradient( to left, rgb(148, 8, 212), rgb(247, 5, 255), rgb(136, 5, 153));
+    color: white;
+    margin-left: 25%;
+    margin-top: 50px;
+    border-radius: 8px;
+    transition: 0.6s;
+    background-size: 400%;
+    cursor: pointer;
+}
+.mail-text:hover{
+    background-position: right;
+}
+.follow-me h1{
+    color: rgb(37, 37, 37);
+    font-size: 15px;
+    padding-top: 0%;
+}
+#note{
+    padding-top: 200px;
+    color:gray;
+}
